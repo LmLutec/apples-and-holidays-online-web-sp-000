@@ -71,7 +71,6 @@ def all_holidays_with_bbq(holiday_hash)
       holiday_hash.collect do |season, holiday|
         holiday.collect do |holiday, event|
           if event.include?("BBQ")
-            binding.pry 
           end 
         end 
       end 
